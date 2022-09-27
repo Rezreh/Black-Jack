@@ -1,25 +1,20 @@
 import java.util.Scanner;
 
-import Deck.*;
+import DeckOfCards.*;
 
 public class Main {
     public static int position = 1;
+    public static int count = 0;
 
     public static void main(String[] args) {
         char action = ' ';
-        int count = 0;
         boolean bust = false;
         boolean stop = false;
         Scanner sc = new Scanner(System.in);
-
         Deck mydeck = new Deck();
-        mydeck.shuffle(mydeck);
-        System.out.println("Actions are H = Hit; S = Stay");
-        mydeck.printDeck(mydeck);
-        count = count + value(draw(mydeck));
-        count = count + value(draw(mydeck));
-        System.out.println("Your Count is :" + count);
-        System.out.print("Please enter what you want to do : ");
+
+
+        newGame(mydeck);
         action = sc.next().charAt(0);
         if (action == 'h' || action == 'H') {
 
@@ -66,5 +61,15 @@ public class Main {
             return c.getFace();
         }
 
+    }
+
+    public static void newGame(Deck d) {
+        d.shuffle(d);
+        System.out.println("Actions are H = Hit; S = Stay");
+        // mydeck.printDeck(mydeck);
+        count = count + value(draw(d));
+        count = count + value(draw(d));
+        System.out.println("Your Count is :" + count);
+        System.out.print("Please enter what you want to do : ");
     }
 }

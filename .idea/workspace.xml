@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16a450ab-d0d4-4902-bc73-84cb8f359b69" name="Changes" comment="Initial Commit of Black Jack">
+    <list default="true" id="16a450ab-d0d4-4902-bc73-84cb8f359b69" name="Changes" comment="Finished Singleplayer without Dealer Advesary, cleaing up code in the next commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deck/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deck/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeckOfCards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deck/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeckOfCards/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664296654960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished Singleplayer without Dealer Advesary, cleaing up code in the next commit">
+      <created>1664303674342</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664303674342</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit of Black Jack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit of Black Jack" />
+    <MESSAGE value="Finished Singleplayer without Dealer Advesary, cleaing up code in the next commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Singleplayer without Dealer Advesary, cleaing up code in the next commit" />
   </component>
 </project>

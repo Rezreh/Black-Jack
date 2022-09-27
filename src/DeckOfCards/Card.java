@@ -1,4 +1,4 @@
-package Deck;
+package DeckOfCards;
 
 public class Card {
     private int face;
